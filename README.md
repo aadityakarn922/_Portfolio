@@ -36,8 +36,6 @@ live demo
 Converts text into voice using Web Speech API.
 
 Allows selecting voices for playback.
-live demo:https://aadityakarn922.github.io/_Portfolio/
-
 
 
 3️⃣ ID Card Generator
@@ -45,3 +43,7 @@ live demo:https://aadityakarn922.github.io/_Portfolio/
 C++ project using OpenCV for generating ID cards.
 
 Supports validation and photo capture.
+
+live demo:https://aadityakarn922.github.io/_Portfolio/
+
+
