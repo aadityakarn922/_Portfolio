@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaditya Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header>
+        <nav>
+            <div class="left">Aaditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#firstsection">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO / FIRST SECTION -->
+    <section id="firstsection" class="firstsection">
+        <div class="leftsection">
+            <h1>Hi, I’m <span class="purple">Aaditya Karn</span></h1>
+            <p>Pursuing Computer Engineering. I’m driven by curiosity and always exploring new technologies to discover innovative solutions. Experimenting and pushing boundaries in the tech world.</p>
+        </div>
+        <div class="rightsection">
+            <img src="pg.png" alt="Aaditya Karn">
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+
+            <!-- WEATHER APP -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="weatherapp.png" alt="Weather App">
+                    <div class="overlay"><span>Weather App</span></div>
+                </div>
+                <h3>Weather App</h3>
+                <p>Real-time weather app using JavaScript and Weather API showing temperature and conditions.</p>
+                <div class="project-links">
+                    <a href="https://aadityakarn922.github.io/Weather_app/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/aadityakarn922/Weather_app" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- TEXT TO SPEECH -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="texttospeech.jpg" alt="Text to Speech">
+                    <div class="overlay"><span>Text to Speech</span></div>
+                </div>
+                <h3>Text to Speech Converter</h3>
+                <p>Converts text into speech using the Web Speech API.</p>
+                <div class="project-links">
+                    <a href="https://github.com/aadityakarn922/Text-to-Speech-Converter" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- ID CARD GENERATOR -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="ID-Card-Generator.png" alt="ID Card Generator">
+                    <div class="overlay"><span>ID Card Generator</span></div>
+                </div>
+                <h3>ID Card Generator</h3>
+                <p>C++ project using OpenCV to generate ID cards with validation.</p>
+                <div class="project-links">
+                    <a href="https://github.com/aadityakarn922/Idcard--generator" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="about" class="about-me">
+        <div class="about-container">
+            <div class="about-left">
+                <img src="pg.png" alt="Aaditya Karn">
+            </div>
+            <div class="about-right">
+                <h2>About Me</h2>
+                <p>Hi, I’m <span class="purple">Aaditya Karn</span>, a Computer Engineering student passionate about exploring new technologies and building innovative solutions. I love experimenting with code and pushing the boundaries of what’s possible in the tech world.</p>
+                <p>I’m constantly learning and always eager to take on new challenges.</p>
+
+                <!-- SOCIAL LINKS USING IMAGES -->
+                <div class="about-social">
+                    <a href="https://github.com/aadityakarn922" target="_blank">
+                        <img src="github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.instagram.com/karn_aaditya/" target="_blank">
+                        <img src="insta.jpg" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/aadi.tya.5496" target="_blank">
+                        <img src="OIP.jpg" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-me">
+        <h2>Contact Me</h2>
+        <p>If you want to get in touch</p>
+
+        <form class="contact-form" action="https://formspree.io/f/yourformid" method="POST" target="_blank">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2026 Aaditya Karn. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
